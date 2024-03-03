@@ -47,6 +47,7 @@ install flameshot
 install git
 install neofetch
 install feh
+install picom
 
 # Terminal
 install alacritty
