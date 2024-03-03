@@ -1,0 +1,4 @@
+gtk-theme-name="Gruvbox-Material-Dark"
+gtk-icon-theme-name="Gruvbox-Material-Dark"
+gtk-fallback-icon-theme="adwaita"
+gtk-font-name = "IBM Plex Sans 12"
