@@ -12,12 +12,12 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
 ![scrot](https://github.com/XORMANCER/kali-dots/blob/main/desktop.png)
 
 ## Usage
-1. Grab a vmware image for Kali linux.
-3. Clone this repo
+1. Grab a copy of Kali linux.
+2. Clone this repo
   ```bash
   git clone https://github.com/XORMANCER/kali-dots.git
   ```
-4. Move to the dotfiles directory, and run the installer
+3. Move to the dotfiles directory, and run the installer
 ```bash
   cd kali-dots/scripts
   ./install.sh
