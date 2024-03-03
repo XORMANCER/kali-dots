@@ -2,7 +2,7 @@
 
 This repo contains my dotfile installer for spinning up BSPWM on kali linux. The scripts are **highly tweakable**, so feel free to make your own changes!
 
-_Inspired by [Victoria Drakes](https://github.com/victoriadrake/dotfiles/tree/ubuntu-19.10/scripts) dotfile scripts :)_  
+> _Inspired by [Victoria Drakes](https://github.com/victoriadrake/dotfiles/tree/ubuntu-19.10/scripts) dotfile scripts :)_  
 
 **Theme**: [Gruvbox Material]([https://github.com/AlessandroYorba/Alduin](https://github.com/TheGreatMcPain/gruvbox-material-gtk))  
 **Window Manager**: [bspwm](https://github.com/baskerville/bspwm)  
