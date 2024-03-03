@@ -9,7 +9,7 @@ Window Manager: [bspwm](https://github.com/baskerville/bspwm)
 Font : [Patched IBM Plex Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/IBMPlexMono)  
 Firefox theme: [Gruvbox Dark]([https://color.firefox.com/?theme=XQAAAAJrAQAAAAAAAABBqYhm849SCia6aSqEGccwS-xMDPr2oHyUaaq-qy5QgqeHG4K15Qcgxy_eM_IX1p-_21bekUjgqHQFWSEAh_LOUC2M1iGA6iXGON3pFWZXQm27d4Q0FMo3tMX94mmmFxWMy8x1cXJc-DybUfhN3YtmiVE_xyjCBCp9DdlebJoVDmSjhkrktYSYZUldkmZMM6DA5FzCJwBSicRQBApJOezPzc4Op9nvSOYXmg8-d6AYOfEWxv-Y10AA](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-medium-dark/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)) (Optional)  
 
-![scrot](https://github.com/XORMANCER/kali-dots/blob/main/screenshot.png)
+![scrot](https://github.com/XORMANCER/kali-dots/blob/main/desktop.png)
 
 ## Usage
 1. Grab a vmware image for Kali linux.
