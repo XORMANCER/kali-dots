@@ -25,10 +25,10 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
 
 ## Customization
 ### Wallpapers and user pictures
-The user icon and backgrounds can be found at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png` respectively.
+The user icon and background files can be found at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png`.
 
 ### GTK and icon themes 
-Modify the parameters within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
+Parameters are set within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
 
 ### Virtual Machine support
 For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
@@ -51,6 +51,8 @@ height = 32px
 
 ## Contents
 
+Below is a brief overview of the changes made to common defaults, along with key files of note.
+
 ### root (/)
 * **.gtkrc-2.0** - Sets the gruvbox them
 * **.tmux.conf** - Tmux package manager and sane defaults
@@ -62,14 +64,13 @@ height = 32px
 * **alacritty** - Contains tweaks for gruvbox theme
 * **bspwm** - Default config plus the following tweaks:
   * SUPER + SPACE
-    * launches Rofi w/ Alduin theme
+    * launches Rofi w/ Gruvbox theme
   * SUPER + RETURN
     * launches Alacritty
 * **gtk-3.0** - Sets the gruvbox theme
 * **nvim** - LazyVIM
 * **picom** - picom with rounded borders
 * **polybar** - Status bar
-* **rofi** - Grubox rofi theme
 * **Sxhkd** - Keybind handler
 
 ### .greeter folder (.greeter)
