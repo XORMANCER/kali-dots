@@ -87,7 +87,3 @@ Below is a brief overview of the changes made to common defaults, along with key
 * `<FILENAME>.sh` - A shell script used to install a program outside of APT, called by `install.sh`.
   * Current programs:
     * neovim, oh-my-zsh, pokemon-colorscripts, tmux TPM
-
-## TODO
-* Upload dots directly vs an archived folder
-* Add arguments for various themes
