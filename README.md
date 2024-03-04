@@ -57,7 +57,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 
 </details>
   
-### Overview
+### Inclusion details
 
 For context as to why each file is included, reference the file descriptions below.
 
@@ -65,7 +65,7 @@ For context as to why each file is included, reference the file descriptions bel
   <summary>Expand</summary>
   
   ### root (/)
-  * `.gtkrc-2.0` - Sets the gruvbox them
+  * `.gtkrc-2.0` - Sets the gruvbox theme
   * `.tmux.conf` - Tmux package manager and sane defaults
     * CTRL + SPACE
       * New prefix key
@@ -73,16 +73,16 @@ For context as to why each file is included, reference the file descriptions bel
   
   ### .config folder (.config)
   * `/alacritty` - Contains tweaks for gruvbox theme
-  * `/bspwm` - Default config plus the following tweaks:
+  * `/bspwm` - Window manager
+  * `/gtk-3.0` - Sets the gruvbox GTK theme
+  * `/nvim` - LazyVIM, gruvbox theme
+  * `/picom` - Default picom with rounded borders
+  * `/polybar` - Status bar
+  * `/sxhkd` - Keybind handler
     * SUPER + SPACE
       * launches Rofi w/ Gruvbox theme
     * SUPER + RETURN
       * launches Alacritty
-  * `/gtk-3.0` - Sets the gruvbox GTK theme
-  * `/nvim` - LazyVIM
-  * `/picom` - Default picom with rounded borders
-  * `/polybar` - Status bar
-  * `/sxhkd` - Keybind handler
 
   ### .greeter folder (.greeter)
   * `lightdm-gtk-greeter.conf` - Contains tweaks for the lightdm greeter (default login screen)
@@ -100,5 +100,3 @@ For context as to why each file is included, reference the file descriptions bel
       * neovim, oh-my-zsh, pokemon-colorscripts, tmux TPM
 
 </details>
-
-
