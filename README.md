@@ -30,23 +30,15 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 <details>
   <summary>Expand</summary>
   
-  #### Wallpapers and mugshots
-  To set custom images, replace `mug.png`, `lock.png`, and `background.png` within `.greeter`.
-  
-  #### GTK and icon themes 
+  ### GTK and icon themes 
   Themes and icons are controlled by `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
-  
-  #### Virtual Machine support
-  For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
-  ```bash
-  vmware-user-suid-wrapper &
-  ```
-  #### HiDPI
+
+  ### HiDPI
   If you have a monitor which utilizes a HiDPI resolution, alacritty may not properly scale itself. Increasing the multiplier within `.config/alacritty/alacritty.yml` may help.
   ```bash
   WINIT_X11_SCALE_FACTOR: "1"
   ```
-  #### Polybar
+  ### Polybar
   The width is set by default to a percentage of your monitors resolution. To manaually set a width, modify the following within `.config/polybar.config.ini`.
   ```css
   [bar/main]
@@ -54,6 +46,15 @@ To adopt these dotfiles to your personal needs, check out some common changes be
   width = 99%
   height = 32px
   ```
+
+  ### Virtual Machine support
+  For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
+  ```bash
+  vmware-user-suid-wrapper &
+  ```
+
+  ### Wallpapers and mugshots
+  To set custom images, replace `mug.png`, `lock.png`, and `background.png` within `.greeter`.
 
 </details>
   
@@ -64,14 +65,14 @@ For context as to why each file is included, reference the file tree below.
 <details>
   <summary>Expand</summary>
   
-  #### root (/)
+  ### root (/)
   * `.gtkrc-2.0` - Sets the gruvbox theme
   * `.tmux.conf` - Tmux package manager and sane defaults
     * CTRL + SPACE
       * New prefix key
     * VIM bindings for pane movement (h,j,k,l) and pane resizing by holding prefix
   
-  #### .config folder (.config)
+  ### .config folder (.config)
   * `/alacritty` - Contains tweaks for gruvbox theme
   * `/bspwm` - Window manager
   * `/gtk-3.0` - Sets the gruvbox GTK theme
@@ -84,17 +85,17 @@ For context as to why each file is included, reference the file tree below.
     * SUPER + RETURN
       * launches Alacritty
 
-  #### .greeter folder (.greeter)
+  ### .greeter folder (.greeter)
   * `lightdm-gtk-greeter.conf` - Contains tweaks for the lightdm greeter (default login screen)
   * `mug.png` - User icon
   * `background.png` - Desktop background
   * `lock.png` - Lockscreen background
   
-  #### scripts (/scripts)
+  ### scripts (/scripts)
   * `copy.sh` - Called by `install.sh`, copies user file(s) to proper location(s).
   * `install.sh` - Automated installer, installs user programs within `/scripts/programs`.
    
-  #### programs (/scripts/programs)
+  ### programs (/scripts/programs)
   * `<FILENAME>.sh` - A shell script for installing programs outside of APT, called by `install.sh`.
     * Current programs:
       * neovim, oh-my-zsh, pokemon-colorscripts, tmux TPM
