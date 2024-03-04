@@ -11,7 +11,7 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
 
 ![scrot](https://github.com/XORMANCER/kali-dots/blob/main/screenshot.png)
 
-## Usage
+### Usage
 1. Grab a copy of Kali linux.
 2. Clone this repo
   ```bash
@@ -23,7 +23,7 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
   ./install.sh
 ```
 
-## Common tweaks
+### Common tweaks
 
 To adopt these dotfiles to your personal needs, check out some common changes below.
 
@@ -57,21 +57,21 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 
 </details>
   
-## Inclusion details
+### Inclusion details
 
 For context as to why each file is included, reference the file tree below.
 
 <details>
   <summary>Expand</summary>
   
-  ### root (/)
+  #### root (/)
   * `.gtkrc-2.0` - Sets the gruvbox theme
   * `.tmux.conf` - Tmux package manager and sane defaults
     * CTRL + SPACE
       * New prefix key
     * VIM bindings for pane movement (h,j,k,l) and pane resizing by holding prefix
   
-  ### .config folder (.config)
+  #### .config folder (.config)
   * `/alacritty` - Contains tweaks for gruvbox theme
   * `/bspwm` - Window manager
   * `/gtk-3.0` - Sets the gruvbox GTK theme
@@ -84,17 +84,17 @@ For context as to why each file is included, reference the file tree below.
     * SUPER + RETURN
       * launches Alacritty
 
-  ### .greeter folder (.greeter)
+  #### .greeter folder (.greeter)
   * `lightdm-gtk-greeter.conf` - Contains tweaks for the lightdm greeter (default login screen)
   * `mug.png` - User icon
   * `background.png` - Desktop background
   * `lock.png` - Lockscreen background
   
-  ### scripts (/scripts)
+  #### scripts (/scripts)
   * `copy.sh` - Called by `install.sh`, copies user file(s) to proper location(s).
   * `install.sh` - Automated installer, installs user programs within `/scripts/programs`.
    
-  ### programs (/scripts/programs)
+  #### programs (/scripts/programs)
   * `<FILENAME>.sh` - A shell script for installing programs outside of APT, called by `install.sh`.
     * Current programs:
       * neovim, oh-my-zsh, pokemon-colorscripts, tmux TPM
