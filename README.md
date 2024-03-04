@@ -47,7 +47,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
   WINIT_X11_SCALE_FACTOR: "1"
   ```
   ### Polybar
-  The polybar configuration uses a dynamic width that adjusts to your resolution. To adjust, modify the following within `.config/polybar.config.ini`.
+  The polybar configuration uses a dynamic width that attempts to dynamically adjust to your resolution. To manaually set a width, modify the following within `.config/polybar.config.ini`.
   ```bash
   [bar/main]
   #EDIT FOR YOUR MONITOR
