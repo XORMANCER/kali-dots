@@ -11,7 +11,7 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
 
 ![scrot](https://github.com/XORMANCER/kali-dots/blob/main/screenshot.png)
 
-### Usage
+## Usage
 1. Grab a copy of Kali linux.
 2. Clone this repo
   ```bash
@@ -23,23 +23,23 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
   ./install.sh
 ```
 
-### Common tweaks
+## Common tweaks
 
 To adopt these dotfiles to your personal needs, check out some common changes below.
 
 <details>
   <summary>Expand</summary>
   
-  #### Wallpapers and user pictures
-  The user icon and background files can be found at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png`.
+  #### Wallpapers and mugshots
+  Replace the images at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png`.
   
   #### GTK and icon themes 
-  Parameters are set within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
+  Change the parameters within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
   
   #### Virtual Machine support
   For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
   ```bash
-  #vmware-user-suid-wrapper &
+  vmware-user-suid-wrapper &
   ```
   #### HiDPI
   If you have a monitor which utilizes a HiDPI resolution, alacritty may not properly scale itself. Increasing the multiplier within `.config/alacritty/alacritty.yml` may help.
@@ -48,7 +48,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
   ```
   #### Polybar
   The width is set by default to a percentage of your monitors resolution. To manaually set a width, modify the following within `.config/polybar.config.ini`.
-  ```bash
+  ```css
   [bar/main]
   #EDIT FOR YOUR MONITOR
   width = 99%
@@ -57,7 +57,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 
 </details>
   
-### Inclusion details
+## Why is this included?
 
 For context as to why each file is included, reference the file tree below.
 
