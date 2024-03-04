@@ -90,14 +90,14 @@ For context as to why each file is included, reference the file tree below.
   * `mug.png` - User icon
   * `background.png` - Desktop background
   * `lock.png` - Lockscreen background
-  
-  ### scripts (/scripts)
-  * `copy.sh` - Called by `install.sh`, copies user file(s) to proper location(s).
-  * `install.sh` - Automated installer, installs user programs within `/scripts/programs`.
-   
+
   ### programs (/scripts/programs)
   * `<FILENAME>.sh` - A shell script for installing programs outside of APT, called by `install.sh`.
     * Current programs:
       * neovim, oh-my-zsh, pokemon-colorscripts, tmux TPM
+  
+  ### scripts (/scripts)
+  * `copy.sh` - Called by `install.sh`, copies user file(s) to proper location(s).
+  * `install.sh` - Automated installer, installs user programs within `/scripts/programs`.
 
 </details>
