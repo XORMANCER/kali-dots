@@ -31,10 +31,10 @@ To adopt these dotfiles to your personal needs, check out some common changes be
   <summary>Expand</summary>
   
   #### Wallpapers and mugshots
-  Replace the images at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png`.
+  To set custom images, replace `mug.png`, `lock.png`, and `background.png` within `.greeter`.
   
   #### GTK and icon themes 
-  Change the parameters within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
+  Themes and icons are controlled by `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
   
   #### Virtual Machine support
   For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
