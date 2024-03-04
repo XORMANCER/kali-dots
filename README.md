@@ -30,23 +30,23 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 <details>
   <summary>Expand</summary>
   
-  ### Wallpapers and user pictures
+  #### Wallpapers and user pictures
   The user icon and background files can be found at `.greeter/mug.png`, `.greeter/lock.png`, and `.greeter/background.png`.
   
-  ### GTK and icon themes 
+  #### GTK and icon themes 
   Parameters are set within `.gtkrc-2.0` and `.config/gtk-3.0/settings.ini`.
   
-  ### Virtual Machine support
+  #### Virtual Machine support
   For VMWare users, copy and paste support can be enabled by uncommenting the following line in `.config/bspwm/bsprc`. This is enabled by default.
   ```bash
   #vmware-user-suid-wrapper &
   ```
-  ### HiDPI
+  #### HiDPI
   If you have a monitor which utilizes a HiDPI resolution, alacritty may not properly scale itself. Increasing the multiplier within `.config/alacritty/alacritty.yml` may help.
   ```bash
   WINIT_X11_SCALE_FACTOR: "1"
   ```
-  ### Polybar
+  #### Polybar
   The width is set by default to a percentage of your monitors resolution. To manaually set a width, modify the following within `.config/polybar.config.ini`.
   ```bash
   [bar/main]
