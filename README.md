@@ -1,4 +1,4 @@
-# BSPWM installer for Debian systems using LightDM
+# Kali dots
 
 This repo contains my dotfile installer for spinning up BSPWM on kali linux. The scripts are **highly tweakable**, so feel free to make your own changes!
 
