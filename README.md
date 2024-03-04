@@ -59,7 +59,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
   
 ## Inclusion details
 
-For context as to why each file is included, reference the file descriptions below.
+For context as to why each file is included, reference the file tree below.
 
 <details>
   <summary>Expand</summary>
