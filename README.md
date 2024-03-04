@@ -1,13 +1,7 @@
 # Kali dots
 
-This repo contains my dotfile installer for spinning up BSPWM on kali linux. The scripts are **highly tweakable**, so feel free to make your own changes!
-
-> _Inspired by [Victoria Drakes](https://github.com/victoriadrake/dotfiles/tree/ubuntu-19.10/scripts) dotfile scripts :)_  
-
-**Theme**: [Gruvbox Material](https://github.com/TheGreatMcPain/gruvbox-material-gtk)  
-**Window Manager**: [bspwm](https://github.com/baskerville/bspwm)  
-**Font** : [Patched IBM Plex Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/IBMPlexMono)  
-**Firefox theme**: [Gruvbox Dark](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-medium-dark/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) (Optional)  
+This repo contains my dotfile installer for spinning up BSPWM on kali linux. The scripts are **highly tweakable**, so feel free to make your own changes! The currently theme chosen theme is [Gruvbox Material](https://github.com/TheGreatMcPain/gruvbox-material-gtk) with [Patched IBM Plex Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/IBMPlexMono).
+> _Inspired by [Victoria Drakes](https://github.com/victoriadrake/dotfiles/tree/ubuntu-19.10/scripts) dotfile scripts :)_
 
 ![scrot](https://github.com/XORMANCER/kali-dots/blob/main/screenshot.png)
 
@@ -22,6 +16,8 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
   cd kali-dots/scripts
   ./install.sh
 ```
+
+4. Grab the firefox theme [here](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-medium-dark/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search), if desired.
 
 ## Common tweaks
 
