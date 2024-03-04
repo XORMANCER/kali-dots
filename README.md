@@ -57,7 +57,7 @@ To adopt these dotfiles to your personal needs, check out some common changes be
 
 </details>
   
-### Inclusion details
+## Inclusion details
 
 For context as to why each file is included, reference the file descriptions below.
 
