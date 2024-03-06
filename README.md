@@ -17,7 +17,7 @@ This repo contains my dotfile installer for spinning up BSPWM on kali linux. The
   ./install.sh
 ```
 
-#### Extras
+4. Grab some matching GUI themes, if desired.
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-medium-dark/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 * [Discord](https://github.com/patrykf03/Discord-Gruvbox/blob/main/duvbox.theme.css)
 
